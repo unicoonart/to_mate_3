@@ -1,0 +1,187 @@
+            html {
+                height: 100%;
+            }
+            body {
+                position: absolute;
+                height: 100%;
+                z-index: 1;
+            }
+            .wapper {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                
+            }
+
+        
+
+            .left-box {
+                width: 800px;
+                height: 100%;
+                float: left;
+                background-color: white;
+                margin: 10px;
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            .left-box p{
+                padding: 0;
+                margin: 10;
+            }
+
+            .right-box p{
+                padding: 0;
+                margin: 0;
+            }
+            .inventory {
+                background-color: yellow;
+                border: thin black solid;
+                height: 80px;
+                padding: 10px;
+                padding-left: 20px;
+                margin-bottom: 10px;
+                font-family: 'Acme', sans-serif;
+            }
+            .canvas {
+                height: 760px;
+                padding: 0px;
+                margin: 0;
+            }
+            .right-box {
+                width: 800px;
+                height: 100%;
+                float: right;
+                margin: 10px;
+                text-align: right;
+                padding: 20px;
+                background-color: white;
+                box-sizing: border-box;
+                margin-top: 0;
+                padding-top: 10;
+            }
+
+            
+            .title {
+                height: 20px;
+                background-color: white;
+                margin: 10px;
+                padding: 30px;
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Acme', serif;
+            }
+
+            .chapter {
+                height: 100px;
+                background-color: white;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                font-size: 25px;
+                font-family: 'Acme', sans-serif;
+            }
+            .text {
+                height: 600px;
+                background-color: white;
+                font-size: 25px;
+                margin: 50px;
+                padding: 20px;
+                line-height: 150%;
+                text-align: left;
+                margin-bottom: 0;
+                margin-top: 0;
+                padding-bottom: 0;
+
+            }
+
+        
+
+            #image1{
+                position: absolute;
+                top: 5.4%;
+                left: 10%;
+                z-index: 3;
+                width: 3.7%;
+            }
+
+            #image2{
+                position: absolute;
+                top: 6.2%;
+                left: 17%;
+                z-index: 3;
+                width: 6%;
+            }
+
+            #image3{
+                position: absolute;
+                top: 6%;
+                left: 28%;
+                z-index: 3;
+                width: 3.7%;
+            }
+
+            #image4{
+                position: absolute;
+                top: 7%;
+                left: 37%;
+                z-index: 3;
+                width: 4%;
+            }
+
+            #card {
+                position: absolute;
+                top: 55%;
+                left: 32%;
+                width: 60px;
+                z-index: 2;
+            }
+
+            #card:hover {
+                transform: rotate(10deg);
+            }
+
+            #clock {
+                position: absolute;
+                top: 75%;
+                left: 30%;
+                width: 4%;
+                z-index: 2;
+            }
+
+            #clock:hover {
+                transform: rotate(10deg);
+            }
+
+            #cupcake {
+                position: absolute;
+                top: 72%;
+                left: 15%;
+                width: 5%;
+                z-index: 2;
+            }
+
+            #cupcake:hover {
+                transform: rotate(10deg);
+            }
+
+            #mushroom {
+                position: absolute;
+                top: 33.5%;
+                left: 20%;
+                width: 5%;
+                z-index: 2;
+            }
+
+            #mushroom:hover {
+                transform: rotate(10deg);
+            }
+
+            script{
+                width: 100px;
+            }
+
