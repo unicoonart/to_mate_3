@@ -7,16 +7,12 @@
                 z-index: 1;
             }
             .wapper {
-                position: absolute;
                 width: 100%;
                 height: 100%;
                 margin: 0;
                 padding: 0;
                 
             }
-
-        
-
             .left-box {
                 width: 800px;
                 height: 100%;
@@ -36,12 +32,12 @@
 
             .right-box p{
                 padding: 0;
-                margin: 0;
+                margin: 10;
             }
             .inventory {
                 background-color: yellow;
-                border: thin black solid;
                 height: 80px;
+                border: thin black solid;
                 padding: 10px;
                 padding-left: 20px;
                 margin-bottom: 10px;
@@ -62,27 +58,15 @@
                 background-color: white;
                 box-sizing: border-box;
                 margin-top: 0;
-                padding-top: 10;
+                padding-top: 0;
             }
-
-            
             .title {
-                height: 20px;
+                height: 100px;
                 background-color: white;
                 margin: 10px;
                 padding: 30px;
                 text-align: center;
                 font-size: 50px;
-                font-family: 'Acme', serif;
-            }
-
-            .chapter {
-                height: 100px;
-                background-color: white;
-                margin: 0px;
-                padding: 0px;
-                text-align: center;
-                font-size: 25px;
                 font-family: 'Acme', sans-serif;
             }
             .text {
